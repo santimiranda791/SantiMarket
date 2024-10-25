@@ -43,3 +43,30 @@ header h2{
 height: 2rem;
 cursor: pointer;
 }
+
+.sect-products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1>h2 {
+    background-color: #f3ece1;
+    color: #321f18;
+    border: solid #321f18 1px;
+    
+}
+
+.product1 {
+    margin-top: 4rem;
+    justify-content: left;
+    width: 30%;
+    height: 30rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f3ece1;
+    border: solid #321f18;
+}
+.product1 img{
+    width: 80%;
+    height: 70%;
+}
